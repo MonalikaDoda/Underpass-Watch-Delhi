@@ -1,0 +1,174 @@
+{
+  "pooled": {
+    "rain1h_mm": 2.2,
+    "rain3h_mm": 4.4
+  },
+  "hotspots": {
+    "aiims": {
+      "rain1h_mm": 2.2,
+      "rain3h_mm": 4.4,
+      "own_threshold": false,
+      "n_floods": 1,
+      "n_clear": 0,
+      "clear_days_at_or_above_threshold": 0,
+      "evidence": "limited evidence (1 recorded floods here; pooled threshold used)"
+    },
+    "azad_market": {
+      "rain1h_mm": 2.2,
+      "rain3h_mm": 4.7,
+      "own_threshold": true,
+      "n_floods": 3,
+      "n_clear": 0,
+      "clear_days_at_or_above_threshold": 0,
+      "evidence": "based on 3 recorded floods"
+    },
+    "azadpur": {
+      "rain1h_mm": 2.2,
+      "rain3h_mm": 4.4,
+      "own_threshold": false,
+      "n_floods": 2,
+      "n_clear": 0,
+      "clear_days_at_or_above_threshold": 0,
+      "evidence": "limited evidence (2 recorded floods here; pooled threshold used)"
+    },
+    "dhaula_kuan": {
+      "rain1h_mm": 2.2,
+      "rain3h_mm": 4.4,
+      "own_threshold": false,
+      "n_floods": 0,
+      "n_clear": 1,
+      "clear_days_at_or_above_threshold": 1,
+      "evidence": "limited evidence (0 recorded floods here; pooled threshold used)"
+    },
+    "dwarka_underpass": {
+      "rain1h_mm": 2.2,
+      "rain3h_mm": 4.4,
+      "own_threshold": false,
+      "n_floods": 1,
+      "n_clear": 0,
+      "clear_days_at_or_above_threshold": 0,
+      "evidence": "limited evidence (1 recorded floods here; pooled threshold used)"
+    },
+    "jahangirpuri": {
+      "rain1h_mm": 2.2,
+      "rain3h_mm": 4.4,
+      "own_threshold": false,
+      "n_floods": 1,
+      "n_clear": 0,
+      "clear_days_at_or_above_threshold": 0,
+      "evidence": "limited evidence (1 recorded floods here; pooled threshold used)"
+    },
+    "kishanganj": {
+      "rain1h_mm": 2.2,
+      "rain3h_mm": 4.4,
+      "own_threshold": false,
+      "n_floods": 1,
+      "n_clear": 0,
+      "clear_days_at_or_above_threshold": 0,
+      "evidence": "limited evidence (1 recorded floods here; pooled threshold used)"
+    },
+    "minto_bridge": {
+      "rain1h_mm": 3.3,
+      "rain3h_mm": 6.3,
+      "own_threshold": true,
+      "n_floods": 5,
+      "n_clear": 3,
+      "clear_days_at_or_above_threshold": 1,
+      "evidence": "based on 5 recorded floods"
+    },
+    "moolchand": {
+      "rain1h_mm": 2.2,
+      "rain3h_mm": 4.4,
+      "own_threshold": false,
+      "n_floods": 0,
+      "n_clear": 2,
+      "clear_days_at_or_above_threshold": 1,
+      "evidence": "limited evidence (0 recorded floods here; pooled threshold used)"
+    },
+    "okhla": {
+      "rain1h_mm": 2.2,
+      "rain3h_mm": 4.4,
+      "own_threshold": false,
+      "n_floods": 1,
+      "n_clear": 0,
+      "clear_days_at_or_above_threshold": 0,
+      "evidence": "limited evidence (1 recorded floods here; pooled threshold used)"
+    },
+    "pragati_maidan": {
+      "rain1h_mm": 2.2,
+      "rain3h_mm": 4.4,
+      "own_threshold": false,
+      "n_floods": 2,
+      "n_clear": 0,
+      "clear_days_at_or_above_threshold": 0,
+      "evidence": "limited evidence (2 recorded floods here; pooled threshold used)"
+    },
+    "pul_prahladpur": {
+      "rain1h_mm": 1.5,
+      "rain3h_mm": 1.7,
+      "own_threshold": true,
+      "n_floods": 7,
+      "n_clear": 2,
+      "clear_days_at_or_above_threshold": 2,
+      "evidence": "based on 7 recorded floods"
+    },
+    "ring_road_who": {
+      "rain1h_mm": 2.2,
+      "rain3h_mm": 4.4,
+      "own_threshold": false,
+      "n_floods": 2,
+      "n_clear": 0,
+      "clear_days_at_or_above_threshold": 0,
+      "evidence": "limited evidence (2 recorded floods here; pooled threshold used)"
+    },
+    "south_avenue": {
+      "rain1h_mm": 2.2,
+      "rain3h_mm": 4.4,
+      "own_threshold": false,
+      "n_floods": 1,
+      "n_clear": 0,
+      "clear_days_at_or_above_threshold": 0,
+      "evidence": "limited evidence (1 recorded floods here; pooled threshold used)"
+    },
+    "tilak_bridge": {
+      "rain1h_mm": 2.2,
+      "rain3h_mm": 4.4,
+      "own_threshold": false,
+      "n_floods": 2,
+      "n_clear": 0,
+      "clear_days_at_or_above_threshold": 0,
+      "evidence": "limited evidence (2 recorded floods here; pooled threshold used)"
+    },
+    "zakhira": {
+      "rain1h_mm": 0.2,
+      "rain3h_mm": 0.4,
+      "own_threshold": true,
+      "n_floods": 8,
+      "n_clear": 1,
+      "clear_days_at_or_above_threshold": 1,
+      "evidence": "based on 8 recorded floods"
+    }
+  },
+  "settings": {
+    "window_hours": [
+      -12,
+      24
+    ],
+    "min_floods_for_own_threshold": 3,
+    "pooled_quantile": 0.25,
+    "tiers": [
+      [
+        1.0,
+        "red"
+      ],
+      [
+        0.8,
+        "orange"
+      ],
+      [
+        0.5,
+        "yellow"
+      ]
+    ]
+  }
+}

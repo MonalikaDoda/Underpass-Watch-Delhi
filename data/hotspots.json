@@ -1,0 +1,23 @@
+{
+  "city": "Delhi",
+  "rain_source": "Open-Meteo Historical Weather API (hourly precipitation, Asia/Kolkata)",
+  "coord_note": "Coordinates are approximate (assistant estimates, not map-checked, can be off by about 1 km). They are good enough for pulling rainfall from a grid roughly 10 km or coarser, but should be checked on a map before being used as pins in the app.",
+  "hotspots": [
+    {"id": "zakhira", "name": "Zakhira underpass", "lat": 28.660, "lon": 77.143, "coord_status": "approximate", "fix_dates": [], "bypass": null},
+    {"id": "pul_prahladpur", "name": "Pul Prahladpur underpass", "lat": 28.505, "lon": 77.298, "coord_status": "approximate", "fix_dates": [], "bypass": null},
+    {"id": "minto_bridge", "name": "Minto Bridge", "lat": 28.636, "lon": 77.226, "coord_status": "approximate", "fix_dates": [], "bypass": null},
+    {"id": "ring_road_who", "name": "Ring Road opposite WHO building", "lat": 28.629, "lon": 77.243, "coord_status": "approximate", "fix_dates": [], "bypass": null},
+    {"id": "tilak_bridge", "name": "Tilak Bridge underpass", "lat": 28.627, "lon": 77.238, "coord_status": "approximate", "fix_dates": [], "bypass": null},
+    {"id": "azad_market", "name": "Azad Market underpass", "lat": 28.665, "lon": 77.208, "coord_status": "approximate", "fix_dates": [], "bypass": null},
+    {"id": "azadpur", "name": "Azadpur underpass", "lat": 28.708, "lon": 77.175, "coord_status": "approximate", "fix_dates": [], "bypass": null},
+    {"id": "kishanganj", "name": "Kishanganj underpass", "lat": 28.667, "lon": 77.192, "coord_status": "approximate", "fix_dates": [], "bypass": null},
+    {"id": "pragati_maidan", "name": "Pragati Maidan tunnel", "lat": 28.621, "lon": 77.245, "coord_status": "approximate", "fix_dates": [], "bypass": null},
+    {"id": "okhla", "name": "Okhla underpass", "lat": 28.561, "lon": 77.279, "coord_status": "approximate", "fix_dates": [], "bypass": null},
+    {"id": "aiims", "name": "AIIMS flyover underpass", "lat": 28.567, "lon": 77.210, "coord_status": "approximate", "fix_dates": [], "bypass": null},
+    {"id": "jahangirpuri", "name": "Jahangirpuri Metro Station road", "lat": 28.726, "lon": 77.163, "coord_status": "approximate", "fix_dates": [], "bypass": null},
+    {"id": "dwarka_underpass", "name": "Dwarka underpass (Sec 19/22)", "lat": 28.585, "lon": 77.045, "coord_status": "approximate", "fix_dates": [], "bypass": null},
+    {"id": "south_avenue", "name": "South Avenue road", "lat": 28.601, "lon": 77.200, "coord_status": "approximate", "fix_dates": [], "bypass": null},
+    {"id": "dhaula_kuan", "name": "Dhaula Kuan underpass", "lat": 28.592, "lon": 77.162, "coord_status": "approximate", "fix_dates": [], "bypass": null},
+    {"id": "moolchand", "name": "Moolchand underpass", "lat": 28.569, "lon": 77.234, "coord_status": "approximate", "fix_dates": [], "bypass": null}
+  ]
+}
