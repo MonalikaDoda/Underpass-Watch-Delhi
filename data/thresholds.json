@@ -14,8 +14,8 @@
       "evidence": "limited evidence (1 recorded floods here; pooled threshold used)"
     },
     "azad_market": {
-      "rain1h_mm": 2.2,
-      "rain3h_mm": 4.7,
+      "rain1h_mm": 2.6,
+      "rain3h_mm": 5.300000000000001,
       "own_threshold": true,
       "n_floods": 3,
       "n_clear": 0,
@@ -68,7 +68,7 @@
       "evidence": "limited evidence (1 recorded floods here; pooled threshold used)"
     },
     "minto_bridge": {
-      "rain1h_mm": 3.3,
+      "rain1h_mm": 3.5,
       "rain3h_mm": 6.3,
       "own_threshold": true,
       "n_floods": 5,
@@ -104,8 +104,8 @@
       "evidence": "limited evidence (2 recorded floods here; pooled threshold used)"
     },
     "pul_prahladpur": {
-      "rain1h_mm": 1.5,
-      "rain3h_mm": 1.7,
+      "rain1h_mm": 1.9500000000000002,
+      "rain3h_mm": 3.8,
       "own_threshold": true,
       "n_floods": 7,
       "n_clear": 2,
@@ -140,8 +140,8 @@
       "evidence": "limited evidence (2 recorded floods here; pooled threshold used)"
     },
     "zakhira": {
-      "rain1h_mm": 0.2,
-      "rain3h_mm": 0.4,
+      "rain1h_mm": 1.85,
+      "rain3h_mm": 3.3499999999999996,
       "own_threshold": true,
       "n_floods": 8,
       "n_clear": 1,

@@ -25,6 +25,9 @@ MIN_HOURS_IN_WINDOW = 30  # skip an event if fewer hourly values than this are a
 
 MIN_FLOODS_FOR_OWN_THRESHOLD = 3
 POOLED_QUANTILE = 0.25
+# A hotspot's own limit is the 25th percentile of the rain on its recorded flood days (same rule as the
+# pooled limit). The first version used the minimum (quantile 0), which one bad row could drag to ~0 mm.
+PER_HOTSPOT_QUANTILE = 0.25
 
 # ratio of rain to threshold -> tier (checked in order); below the last cut-off is green
 TIERS = [(1.0, "red"), (0.8, "orange"), (0.5, "yellow")]
@@ -94,8 +97,8 @@ def fit_thresholds(train: pd.DataFrame) -> dict:
         f = g[g.outcome == "flooded"]
         c = g[g.outcome == "clear"]
         own = len(f) >= MIN_FLOODS_FOR_OWN_THRESHOLD
-        t1 = float(f.rain1h_mm.min()) if own else pooled["rain1h_mm"]
-        t3 = float(f.rain3h_mm.min()) if own else pooled["rain3h_mm"]
+        t1 = float(f.rain1h_mm.quantile(PER_HOTSPOT_QUANTILE)) if own else pooled["rain1h_mm"]
+        t3 = float(f.rain3h_mm.quantile(PER_HOTSPOT_QUANTILE)) if own else pooled["rain3h_mm"]
         hotspots[hid] = {
             "rain1h_mm": t1,
             "rain3h_mm": t3,

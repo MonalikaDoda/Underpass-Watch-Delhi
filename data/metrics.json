@@ -2,8 +2,8 @@
   "n_rows": 46,
   "n_storm_days": 15,
   "per_hotspot_thresholds": {
-    "floods_caught": 31,
-    "floods_missed": 6,
+    "floods_caught": 27,
+    "floods_missed": 10,
     "false_alarms": 6,
     "correct_clear": 3,
     "n_flooded_rows": 37,
@@ -20,8 +20,8 @@
   "per_storm_day": [
     {
       "date": "2020-07-19",
-      "floods_caught": 4,
-      "floods_missed": 0,
+      "floods_caught": 3,
+      "floods_missed": 1,
       "false_alarms": 0,
       "correct_clear": 0,
       "n_flooded_rows": 4,
@@ -83,8 +83,8 @@
     },
     {
       "date": "2024-08-20",
-      "floods_caught": 2,
-      "floods_missed": 0,
+      "floods_caught": 1,
+      "floods_missed": 1,
       "false_alarms": 0,
       "correct_clear": 0,
       "n_flooded_rows": 2,
@@ -92,8 +92,8 @@
     },
     {
       "date": "2025-07-23",
-      "floods_caught": 2,
-      "floods_missed": 0,
+      "floods_caught": 0,
+      "floods_missed": 2,
       "false_alarms": 0,
       "correct_clear": 1,
       "n_flooded_rows": 2,

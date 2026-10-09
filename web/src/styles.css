@@ -1,0 +1,224 @@
+:root {
+  font-family:
+    Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  color: #192326;
+  background: #f4f6f7;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+}
+
+button {
+  font: inherit;
+}
+
+.app-shell {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  height: 100dvh;
+}
+
+.topbar {
+  z-index: 500;
+  display: flex;
+  flex: 0 0 76px;
+  align-items: center;
+  gap: 12px;
+  padding: 0 28px;
+  background: #ffffff;
+  border-bottom: 1px solid #e7ebec;
+}
+
+.brand-mark {
+  display: grid;
+  width: 38px;
+  height: 38px;
+  place-items: center;
+  border-radius: 12px;
+  background: #173d3b;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 750;
+}
+
+.eyebrow {
+  margin: 0 0 5px;
+  color: #708083;
+  font-size: 10px;
+  font-weight: 750;
+  letter-spacing: 0.13em;
+}
+
+.topbar h1 {
+  margin: 0;
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.map-layout {
+  display: grid;
+  flex: 1;
+  min-height: 0;
+  grid-template-columns: 300px minmax(0, 1fr);
+}
+
+.info-panel {
+  z-index: 400;
+  padding: 30px 24px;
+  background: #ffffff;
+  border-right: 1px solid #e7ebec;
+}
+
+.info-panel h2,
+.hotspot-card h2 {
+  margin: 0;
+  font-size: 20px;
+  line-height: 1.25;
+  letter-spacing: -0.03em;
+}
+
+.panel-copy {
+  margin: 12px 0 25px;
+  color: #667578;
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+.map-key {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 0;
+  border-top: 1px solid #edf0f0;
+  border-bottom: 1px solid #edf0f0;
+  color: #39494b;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.key-dot {
+  width: 12px;
+  height: 12px;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  background: #7b858b;
+  box-shadow: 0 0 0 1px #7b858b;
+}
+
+.load-message,
+.error-message,
+.coordinate-note {
+  margin: 17px 0 0;
+  color: #778588;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.error-message {
+  color: #a53f36;
+}
+
+.coordinate-note {
+  margin-top: 24px;
+}
+
+.map-wrap {
+  position: relative;
+  min-width: 0;
+  min-height: 0;
+  background: #e9eeee;
+}
+
+.delhi-map {
+  width: 100%;
+  height: 100%;
+}
+
+.hotspot-card {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 24px;
+  padding: 16px;
+  border-radius: 14px;
+  background: #f2f5f5;
+}
+
+.hotspot-card h2 {
+  font-size: 17px;
+}
+
+.close-button {
+  display: grid;
+  width: 30px;
+  height: 30px;
+  flex: 0 0 30px;
+  place-items: center;
+  padding: 0 0 3px;
+  border: 0;
+  border-radius: 50%;
+  background: #f0f3f3;
+  color: #334447;
+  cursor: pointer;
+  font-size: 23px;
+  line-height: 1;
+}
+
+.close-button:hover {
+  background: #e2e9e8;
+}
+
+@media (max-width: 640px) {
+  .topbar {
+    flex-basis: 64px;
+    padding: 0 16px;
+  }
+
+  .brand-mark {
+    width: 34px;
+    height: 34px;
+    border-radius: 10px;
+  }
+
+  .map-layout {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto minmax(0, 1fr);
+  }
+
+  .info-panel {
+    padding: 14px 16px;
+    border-right: 0;
+    border-bottom: 1px solid #e7ebec;
+  }
+
+  .info-panel .eyebrow,
+  .panel-copy,
+  .coordinate-note {
+    display: none;
+  }
+
+  .info-panel h2 {
+    font-size: 16px;
+  }
+
+  .map-key {
+    display: none;
+  }
+}

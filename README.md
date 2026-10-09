@@ -12,7 +12,8 @@ underpass becomes unsafe, and let people on the ground confirm or correct it liv
 
 - [x] Incident dataset in `data/events.csv` (dated flood and "stayed clear" records with source links)
 - [x] Rainfall + threshold pipeline (`pipeline/`)
-- [ ] Map, risk cards, "Why this alert?"
+- [x] Delhi hotspot map with marker details
+- [ ] Risk cards, "Why this alert?"
 - [ ] Live community reports on AWS (API Gateway, Lambda, DynamoDB)
 - [ ] Replay mode and evaluation panel
 
@@ -34,6 +35,14 @@ pip install -r requirements.txt
 python pipeline/fetch_rain.py        # downloads hourly rain from Open-Meteo into data/rain/
 python pipeline/fit_thresholds.py    # data/thresholds.json
 python pipeline/evaluate.py          # data/metrics.json (leave-one-storm-out)
+```
+
+Start the web map:
+
+```bash
+cd web
+npm install
+npm run dev
 ```
 
 ## Data and credits
