@@ -1,152 +1,152 @@
 {
   "pooled": {
-    "rain1h_mm": 2.2,
-    "rain3h_mm": 4.4
+    "rain1h_mm": 14.23,
+    "rain3h_mm": 33.42
   },
   "hotspots": {
     "aiims": {
-      "rain1h_mm": 2.2,
-      "rain3h_mm": 4.4,
-      "own_threshold": false,
-      "n_floods": 1,
-      "n_clear": 0,
+      "rain1h_mm": 19.1475,
+      "rain3h_mm": 47.3925,
+      "own_threshold": true,
+      "n_floods": 6,
+      "n_clear": 9,
       "clear_days_at_or_above_threshold": 0,
-      "evidence": "limited evidence (1 recorded floods here; pooled threshold used)"
+      "evidence": "based on 6 recorded floods"
     },
     "azad_market": {
-      "rain1h_mm": 2.6,
-      "rain3h_mm": 5.300000000000001,
+      "rain1h_mm": 3.2,
+      "rain3h_mm": 7.3,
       "own_threshold": true,
-      "n_floods": 3,
-      "n_clear": 0,
-      "clear_days_at_or_above_threshold": 0,
-      "evidence": "based on 3 recorded floods"
+      "n_floods": 9,
+      "n_clear": 1,
+      "clear_days_at_or_above_threshold": 1,
+      "evidence": "based on 9 recorded floods"
     },
     "azadpur": {
-      "rain1h_mm": 2.2,
-      "rain3h_mm": 4.4,
-      "own_threshold": false,
-      "n_floods": 2,
-      "n_clear": 0,
+      "rain1h_mm": 7.922499999999999,
+      "rain3h_mm": 17.92,
+      "own_threshold": true,
+      "n_floods": 6,
+      "n_clear": 5,
       "clear_days_at_or_above_threshold": 0,
-      "evidence": "limited evidence (2 recorded floods here; pooled threshold used)"
+      "evidence": "based on 6 recorded floods"
     },
     "dhaula_kuan": {
-      "rain1h_mm": 2.2,
-      "rain3h_mm": 4.4,
-      "own_threshold": false,
-      "n_floods": 0,
-      "n_clear": 1,
-      "clear_days_at_or_above_threshold": 1,
-      "evidence": "limited evidence (0 recorded floods here; pooled threshold used)"
+      "rain1h_mm": 20.7875,
+      "rain3h_mm": 47.9325,
+      "own_threshold": true,
+      "n_floods": 6,
+      "n_clear": 3,
+      "clear_days_at_or_above_threshold": 0,
+      "evidence": "based on 6 recorded floods"
     },
     "dwarka_underpass": {
-      "rain1h_mm": 2.2,
-      "rain3h_mm": 4.4,
-      "own_threshold": false,
-      "n_floods": 1,
-      "n_clear": 0,
-      "clear_days_at_or_above_threshold": 0,
-      "evidence": "limited evidence (1 recorded floods here; pooled threshold used)"
-    },
-    "jahangirpuri": {
-      "rain1h_mm": 2.2,
-      "rain3h_mm": 4.4,
-      "own_threshold": false,
-      "n_floods": 1,
-      "n_clear": 0,
-      "clear_days_at_or_above_threshold": 0,
-      "evidence": "limited evidence (1 recorded floods here; pooled threshold used)"
-    },
-    "kishanganj": {
-      "rain1h_mm": 2.2,
-      "rain3h_mm": 4.4,
-      "own_threshold": false,
-      "n_floods": 1,
-      "n_clear": 0,
-      "clear_days_at_or_above_threshold": 0,
-      "evidence": "limited evidence (1 recorded floods here; pooled threshold used)"
-    },
-    "minto_bridge": {
-      "rain1h_mm": 3.5,
-      "rain3h_mm": 6.3,
-      "own_threshold": true,
-      "n_floods": 5,
-      "n_clear": 3,
-      "clear_days_at_or_above_threshold": 1,
-      "evidence": "based on 5 recorded floods"
-    },
-    "moolchand": {
-      "rain1h_mm": 2.2,
-      "rain3h_mm": 4.4,
-      "own_threshold": false,
-      "n_floods": 0,
-      "n_clear": 2,
-      "clear_days_at_or_above_threshold": 1,
-      "evidence": "limited evidence (0 recorded floods here; pooled threshold used)"
-    },
-    "okhla": {
-      "rain1h_mm": 2.2,
-      "rain3h_mm": 4.4,
-      "own_threshold": false,
-      "n_floods": 1,
-      "n_clear": 0,
-      "clear_days_at_or_above_threshold": 0,
-      "evidence": "limited evidence (1 recorded floods here; pooled threshold used)"
-    },
-    "pragati_maidan": {
-      "rain1h_mm": 2.2,
-      "rain3h_mm": 4.4,
-      "own_threshold": false,
-      "n_floods": 2,
-      "n_clear": 0,
-      "clear_days_at_or_above_threshold": 0,
-      "evidence": "limited evidence (2 recorded floods here; pooled threshold used)"
-    },
-    "pul_prahladpur": {
-      "rain1h_mm": 1.9500000000000002,
-      "rain3h_mm": 3.8,
+      "rain1h_mm": 19.01,
+      "rain3h_mm": 44.735,
       "own_threshold": true,
       "n_floods": 7,
-      "n_clear": 2,
-      "clear_days_at_or_above_threshold": 2,
+      "n_clear": 8,
+      "clear_days_at_or_above_threshold": 0,
       "evidence": "based on 7 recorded floods"
     },
-    "ring_road_who": {
-      "rain1h_mm": 2.2,
-      "rain3h_mm": 4.4,
-      "own_threshold": false,
-      "n_floods": 2,
+    "jahangirpuri": {
+      "rain1h_mm": 18.085,
+      "rain3h_mm": 45.16,
+      "own_threshold": true,
+      "n_floods": 11,
       "n_clear": 0,
       "clear_days_at_or_above_threshold": 0,
-      "evidence": "limited evidence (2 recorded floods here; pooled threshold used)"
+      "evidence": "based on 11 recorded floods"
     },
-    "south_avenue": {
-      "rain1h_mm": 2.2,
-      "rain3h_mm": 4.4,
-      "own_threshold": false,
-      "n_floods": 1,
-      "n_clear": 0,
+    "kishanganj": {
+      "rain1h_mm": 20.02,
+      "rain3h_mm": 44.57,
+      "own_threshold": true,
+      "n_floods": 9,
+      "n_clear": 2,
       "clear_days_at_or_above_threshold": 0,
-      "evidence": "limited evidence (1 recorded floods here; pooled threshold used)"
+      "evidence": "based on 9 recorded floods"
     },
-    "tilak_bridge": {
-      "rain1h_mm": 2.2,
-      "rain3h_mm": 4.4,
-      "own_threshold": false,
-      "n_floods": 2,
-      "n_clear": 0,
+    "minto_bridge": {
+      "rain1h_mm": 6.7250000000000005,
+      "rain3h_mm": 12.4,
+      "own_threshold": true,
+      "n_floods": 12,
+      "n_clear": 5,
+      "clear_days_at_or_above_threshold": 1,
+      "evidence": "based on 12 recorded floods"
+    },
+    "moolchand": {
+      "rain1h_mm": 20.340000000000003,
+      "rain3h_mm": 51.59,
+      "own_threshold": true,
+      "n_floods": 7,
+      "n_clear": 5,
       "clear_days_at_or_above_threshold": 0,
-      "evidence": "limited evidence (2 recorded floods here; pooled threshold used)"
+      "evidence": "based on 7 recorded floods"
     },
-    "zakhira": {
-      "rain1h_mm": 1.85,
-      "rain3h_mm": 3.3499999999999996,
+    "okhla": {
+      "rain1h_mm": 18.2575,
+      "rain3h_mm": 44.355000000000004,
       "own_threshold": true,
       "n_floods": 8,
+      "n_clear": 2,
+      "clear_days_at_or_above_threshold": 0,
+      "evidence": "based on 8 recorded floods"
+    },
+    "pragati_maidan": {
+      "rain1h_mm": 26.55,
+      "rain3h_mm": 47.2,
+      "own_threshold": true,
+      "n_floods": 9,
+      "n_clear": 4,
+      "clear_days_at_or_above_threshold": 0,
+      "evidence": "based on 9 recorded floods"
+    },
+    "pul_prahladpur": {
+      "rain1h_mm": 3.4,
+      "rain3h_mm": 6.2,
+      "own_threshold": true,
+      "n_floods": 13,
+      "n_clear": 3,
+      "clear_days_at_or_above_threshold": 2,
+      "evidence": "based on 13 recorded floods"
+    },
+    "ring_road_who": {
+      "rain1h_mm": 13.775,
+      "rain3h_mm": 30.555,
+      "own_threshold": true,
+      "n_floods": 7,
+      "n_clear": 8,
+      "clear_days_at_or_above_threshold": 0,
+      "evidence": "based on 7 recorded floods"
+    },
+    "south_avenue": {
+      "rain1h_mm": 17.48,
+      "rain3h_mm": 44.36,
+      "own_threshold": true,
+      "n_floods": 5,
+      "n_clear": 4,
+      "clear_days_at_or_above_threshold": 0,
+      "evidence": "based on 5 recorded floods"
+    },
+    "tilak_bridge": {
+      "rain1h_mm": 16.8,
+      "rain3h_mm": 35.28,
+      "own_threshold": true,
+      "n_floods": 9,
+      "n_clear": 3,
+      "clear_days_at_or_above_threshold": 0,
+      "evidence": "based on 9 recorded floods"
+    },
+    "zakhira": {
+      "rain1h_mm": 2.2,
+      "rain3h_mm": 4.4,
+      "own_threshold": true,
+      "n_floods": 13,
       "n_clear": 1,
       "clear_days_at_or_above_threshold": 1,
-      "evidence": "based on 8 recorded floods"
+      "evidence": "based on 13 recorded floods"
     }
   },
   "settings": {
