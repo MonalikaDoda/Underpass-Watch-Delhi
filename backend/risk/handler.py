@@ -107,7 +107,14 @@ def lambda_handler(event, context):
     headers = {"Content-Type": "application/json", "Access-Control-Allow-Origin": "*",
                "Cache-Control": "max-age=300"}
     try:
-        return {"statusCode": 200, "headers": headers, "body": json.dumps(get_risk())}
+        result = get_risk()
+        tiers: dict = {}
+        for h in result["hotspots"]:
+            tiers[h["tier"]] = tiers.get(h["tier"], 0) + 1
+        # one readable line per request in CloudWatch Logs (shown in the demo video)
+        print(json.dumps({"event": "risk_computed", "forecast_model": result["forecast_model_used"],
+                          "hotspots": len(result["hotspots"]), "tiers": tiers}))
+        return {"statusCode": 200, "headers": headers, "body": json.dumps(result)}
     except Exception as e:  # never invent a forecast: say it is unavailable
         print("risk lambda error:", repr(e))  # shows up in CloudWatch Logs
         return {"statusCode": 503, "headers": headers,

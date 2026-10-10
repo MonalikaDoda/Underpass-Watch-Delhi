@@ -1,0 +1,421 @@
+{
+  "mock": true,
+  "banner": "MOCK DATA FOR BUILDING THE UI. NOT A REAL FORECAST. NEVER SHOW IN THE DEMO AS REAL.",
+  "generated_at": "2026-10-09T12:00:00+05:30",
+  "forecast_model_used": "MOCK",
+  "lookahead_hours": 24,
+  "disclaimer": "Prototype. Estimated risk, not an official warning.",
+  "credit": "Weather data by Open-Meteo.com",
+  "hotspots": [
+    {
+      "id": "zakhira",
+      "name": "Zakhira underpass",
+      "lat": 28.66,
+      "lon": 77.143,
+      "limit": {
+        "rain1h_mm": 1.9,
+        "rain3h_mm": 3.3
+      },
+      "limit_is_own": true,
+      "evidence": "based on 8 recorded floods",
+      "note": "Prototype. Estimated risk, not an official warning.",
+      "tier": "red",
+      "ratio": 3.58,
+      "forecast": {
+        "max_1h_mm": 5.0,
+        "max_3h_mm": 12.0,
+        "window_start": "2026-10-09T14:00:00+05:30",
+        "window_end": "2026-10-09T18:00:00+05:30"
+      },
+      "history": {
+        "recorded_floods": 8,
+        "floods_with_at_least_this_rain_3h": 1
+      },
+      "why": "Forecast rain up to 12.0 mm in 3 h, heaviest hour 5.0 mm is at or above this spot's limit (about 3.3 mm in 3 h). 1 of 8 recorded floods here had at least this much rain in 3 h. Estimated risk window is based on when forecast rain reaches the limit. Evidence: based on 8 recorded floods."
+    },
+    {
+      "id": "pul_prahladpur",
+      "name": "Pul Prahladpur underpass",
+      "lat": 28.505,
+      "lon": 77.298,
+      "limit": {
+        "rain1h_mm": 2.0,
+        "rain3h_mm": 3.8
+      },
+      "limit_is_own": true,
+      "evidence": "based on 7 recorded floods",
+      "note": "Prototype. Estimated risk, not an official warning.",
+      "tier": "red",
+      "ratio": 3.16,
+      "forecast": {
+        "max_1h_mm": 5.0,
+        "max_3h_mm": 12.0,
+        "window_start": "2026-10-09T14:00:00+05:30",
+        "window_end": "2026-10-09T18:00:00+05:30"
+      },
+      "history": {
+        "recorded_floods": 7,
+        "floods_with_at_least_this_rain_3h": 2
+      },
+      "why": "Forecast rain up to 12.0 mm in 3 h, heaviest hour 5.0 mm is at or above this spot's limit (about 3.8 mm in 3 h). 2 of 7 recorded floods here had at least this much rain in 3 h. Estimated risk window is based on when forecast rain reaches the limit. Evidence: based on 7 recorded floods."
+    },
+    {
+      "id": "minto_bridge",
+      "name": "Minto Bridge",
+      "lat": 28.636,
+      "lon": 77.226,
+      "limit": {
+        "rain1h_mm": 3.5,
+        "rain3h_mm": 6.3
+      },
+      "limit_is_own": true,
+      "evidence": "based on 5 recorded floods",
+      "note": "Prototype. Estimated risk, not an official warning.",
+      "tier": "red",
+      "ratio": 1.9,
+      "forecast": {
+        "max_1h_mm": 5.0,
+        "max_3h_mm": 12.0,
+        "window_start": "2026-10-09T15:00:00+05:30",
+        "window_end": "2026-10-09T18:00:00+05:30"
+      },
+      "history": {
+        "recorded_floods": 5,
+        "floods_with_at_least_this_rain_3h": 2
+      },
+      "why": "Forecast rain up to 12.0 mm in 3 h, heaviest hour 5.0 mm is at or above this spot's limit (about 6.3 mm in 3 h). 2 of 5 recorded floods here had at least this much rain in 3 h. Estimated risk window is based on when forecast rain reaches the limit. Evidence: based on 5 recorded floods."
+    },
+    {
+      "id": "ring_road_who",
+      "name": "Ring Road opposite WHO building",
+      "lat": 28.629,
+      "lon": 77.243,
+      "limit": {
+        "rain1h_mm": 2.2,
+        "rain3h_mm": 4.4
+      },
+      "limit_is_own": false,
+      "evidence": "limited evidence (2 recorded floods here; pooled threshold used)",
+      "note": "Prototype. Estimated risk, not an official warning.",
+      "tier": "red",
+      "ratio": 2.73,
+      "forecast": {
+        "max_1h_mm": 5.0,
+        "max_3h_mm": 12.0,
+        "window_start": "2026-10-09T14:00:00+05:30",
+        "window_end": "2026-10-09T18:00:00+05:30"
+      },
+      "history": {
+        "recorded_floods": 2,
+        "floods_with_at_least_this_rain_3h": 0
+      },
+      "why": "Forecast rain up to 12.0 mm in 3 h, heaviest hour 5.0 mm is at or above this spot's limit (about 4.4 mm in 3 h). 0 of 2 recorded floods here had at least this much rain in 3 h. Estimated risk window is based on when forecast rain reaches the limit. Evidence: limited evidence (2 recorded floods here; pooled threshold used)."
+    },
+    {
+      "id": "tilak_bridge",
+      "name": "Tilak Bridge underpass",
+      "lat": 28.627,
+      "lon": 77.238,
+      "limit": {
+        "rain1h_mm": 2.2,
+        "rain3h_mm": 4.4
+      },
+      "limit_is_own": false,
+      "evidence": "limited evidence (2 recorded floods here; pooled threshold used)",
+      "note": "Prototype. Estimated risk, not an official warning.",
+      "tier": "red",
+      "ratio": 2.73,
+      "forecast": {
+        "max_1h_mm": 5.0,
+        "max_3h_mm": 12.0,
+        "window_start": "2026-10-09T14:00:00+05:30",
+        "window_end": "2026-10-09T18:00:00+05:30"
+      },
+      "history": {
+        "recorded_floods": 2,
+        "floods_with_at_least_this_rain_3h": 2
+      },
+      "why": "Forecast rain up to 12.0 mm in 3 h, heaviest hour 5.0 mm is at or above this spot's limit (about 4.4 mm in 3 h). 2 of 2 recorded floods here had at least this much rain in 3 h. Estimated risk window is based on when forecast rain reaches the limit. Evidence: limited evidence (2 recorded floods here; pooled threshold used)."
+    },
+    {
+      "id": "azad_market",
+      "name": "Azad Market underpass",
+      "lat": 28.665,
+      "lon": 77.208,
+      "limit": {
+        "rain1h_mm": 2.6,
+        "rain3h_mm": 5.3
+      },
+      "limit_is_own": true,
+      "evidence": "based on 3 recorded floods",
+      "note": "Prototype. Estimated risk, not an official warning.",
+      "tier": "red",
+      "ratio": 2.26,
+      "forecast": {
+        "max_1h_mm": 5.0,
+        "max_3h_mm": 12.0,
+        "window_start": "2026-10-09T14:00:00+05:30",
+        "window_end": "2026-10-09T18:00:00+05:30"
+      },
+      "history": {
+        "recorded_floods": 3,
+        "floods_with_at_least_this_rain_3h": 0
+      },
+      "why": "Forecast rain up to 12.0 mm in 3 h, heaviest hour 5.0 mm is at or above this spot's limit (about 5.3 mm in 3 h). 0 of 3 recorded floods here had at least this much rain in 3 h. Estimated risk window is based on when forecast rain reaches the limit. Evidence: based on 3 recorded floods."
+    },
+    {
+      "id": "azadpur",
+      "name": "Azadpur underpass",
+      "lat": 28.708,
+      "lon": 77.175,
+      "limit": {
+        "rain1h_mm": 2.2,
+        "rain3h_mm": 4.4
+      },
+      "limit_is_own": false,
+      "evidence": "limited evidence (2 recorded floods here; pooled threshold used)",
+      "note": "Prototype. Estimated risk, not an official warning.",
+      "tier": "red",
+      "ratio": 2.73,
+      "forecast": {
+        "max_1h_mm": 5.0,
+        "max_3h_mm": 12.0,
+        "window_start": "2026-10-09T14:00:00+05:30",
+        "window_end": "2026-10-09T18:00:00+05:30"
+      },
+      "history": {
+        "recorded_floods": 2,
+        "floods_with_at_least_this_rain_3h": 0
+      },
+      "why": "Forecast rain up to 12.0 mm in 3 h, heaviest hour 5.0 mm is at or above this spot's limit (about 4.4 mm in 3 h). 0 of 2 recorded floods here had at least this much rain in 3 h. Estimated risk window is based on when forecast rain reaches the limit. Evidence: limited evidence (2 recorded floods here; pooled threshold used)."
+    },
+    {
+      "id": "kishanganj",
+      "name": "Kishanganj underpass",
+      "lat": 28.667,
+      "lon": 77.192,
+      "limit": {
+        "rain1h_mm": 2.2,
+        "rain3h_mm": 4.4
+      },
+      "limit_is_own": false,
+      "evidence": "limited evidence (1 recorded floods here; pooled threshold used)",
+      "note": "Prototype. Estimated risk, not an official warning.",
+      "tier": "red",
+      "ratio": 2.73,
+      "forecast": {
+        "max_1h_mm": 5.0,
+        "max_3h_mm": 12.0,
+        "window_start": "2026-10-09T14:00:00+05:30",
+        "window_end": "2026-10-09T18:00:00+05:30"
+      },
+      "history": {
+        "recorded_floods": 1,
+        "floods_with_at_least_this_rain_3h": 1
+      },
+      "why": "Forecast rain up to 12.0 mm in 3 h, heaviest hour 5.0 mm is at or above this spot's limit (about 4.4 mm in 3 h). 1 of 1 recorded floods here had at least this much rain in 3 h. Estimated risk window is based on when forecast rain reaches the limit. Evidence: limited evidence (1 recorded floods here; pooled threshold used)."
+    },
+    {
+      "id": "pragati_maidan",
+      "name": "Pragati Maidan tunnel",
+      "lat": 28.621,
+      "lon": 77.245,
+      "limit": {
+        "rain1h_mm": 2.2,
+        "rain3h_mm": 4.4
+      },
+      "limit_is_own": false,
+      "evidence": "limited evidence (2 recorded floods here; pooled threshold used)",
+      "note": "Prototype. Estimated risk, not an official warning.",
+      "tier": "red",
+      "ratio": 2.73,
+      "forecast": {
+        "max_1h_mm": 5.0,
+        "max_3h_mm": 12.0,
+        "window_start": "2026-10-09T14:00:00+05:30",
+        "window_end": "2026-10-09T18:00:00+05:30"
+      },
+      "history": {
+        "recorded_floods": 2,
+        "floods_with_at_least_this_rain_3h": 2
+      },
+      "why": "Forecast rain up to 12.0 mm in 3 h, heaviest hour 5.0 mm is at or above this spot's limit (about 4.4 mm in 3 h). 2 of 2 recorded floods here had at least this much rain in 3 h. Estimated risk window is based on when forecast rain reaches the limit. Evidence: limited evidence (2 recorded floods here; pooled threshold used)."
+    },
+    {
+      "id": "okhla",
+      "name": "Okhla underpass",
+      "lat": 28.561,
+      "lon": 77.279,
+      "limit": {
+        "rain1h_mm": 2.2,
+        "rain3h_mm": 4.4
+      },
+      "limit_is_own": false,
+      "evidence": "limited evidence (1 recorded floods here; pooled threshold used)",
+      "note": "Prototype. Estimated risk, not an official warning.",
+      "tier": "red",
+      "ratio": 2.73,
+      "forecast": {
+        "max_1h_mm": 5.0,
+        "max_3h_mm": 12.0,
+        "window_start": "2026-10-09T14:00:00+05:30",
+        "window_end": "2026-10-09T18:00:00+05:30"
+      },
+      "history": {
+        "recorded_floods": 1,
+        "floods_with_at_least_this_rain_3h": 1
+      },
+      "why": "Forecast rain up to 12.0 mm in 3 h, heaviest hour 5.0 mm is at or above this spot's limit (about 4.4 mm in 3 h). 1 of 1 recorded floods here had at least this much rain in 3 h. Estimated risk window is based on when forecast rain reaches the limit. Evidence: limited evidence (1 recorded floods here; pooled threshold used)."
+    },
+    {
+      "id": "aiims",
+      "name": "AIIMS flyover underpass",
+      "lat": 28.567,
+      "lon": 77.21,
+      "limit": {
+        "rain1h_mm": 2.2,
+        "rain3h_mm": 4.4
+      },
+      "limit_is_own": false,
+      "evidence": "limited evidence (1 recorded floods here; pooled threshold used)",
+      "note": "Prototype. Estimated risk, not an official warning.",
+      "tier": "red",
+      "ratio": 2.73,
+      "forecast": {
+        "max_1h_mm": 5.0,
+        "max_3h_mm": 12.0,
+        "window_start": "2026-10-09T14:00:00+05:30",
+        "window_end": "2026-10-09T18:00:00+05:30"
+      },
+      "history": {
+        "recorded_floods": 1,
+        "floods_with_at_least_this_rain_3h": 0
+      },
+      "why": "Forecast rain up to 12.0 mm in 3 h, heaviest hour 5.0 mm is at or above this spot's limit (about 4.4 mm in 3 h). 0 of 1 recorded floods here had at least this much rain in 3 h. Estimated risk window is based on when forecast rain reaches the limit. Evidence: limited evidence (1 recorded floods here; pooled threshold used)."
+    },
+    {
+      "id": "jahangirpuri",
+      "name": "Jahangirpuri Metro Station road",
+      "lat": 28.726,
+      "lon": 77.163,
+      "limit": {
+        "rain1h_mm": 2.2,
+        "rain3h_mm": 4.4
+      },
+      "limit_is_own": false,
+      "evidence": "limited evidence (1 recorded floods here; pooled threshold used)",
+      "note": "Prototype. Estimated risk, not an official warning.",
+      "tier": "red",
+      "ratio": 2.73,
+      "forecast": {
+        "max_1h_mm": 5.0,
+        "max_3h_mm": 12.0,
+        "window_start": "2026-10-09T14:00:00+05:30",
+        "window_end": "2026-10-09T18:00:00+05:30"
+      },
+      "history": {
+        "recorded_floods": 1,
+        "floods_with_at_least_this_rain_3h": 0
+      },
+      "why": "Forecast rain up to 12.0 mm in 3 h, heaviest hour 5.0 mm is at or above this spot's limit (about 4.4 mm in 3 h). 0 of 1 recorded floods here had at least this much rain in 3 h. Estimated risk window is based on when forecast rain reaches the limit. Evidence: limited evidence (1 recorded floods here; pooled threshold used)."
+    },
+    {
+      "id": "dwarka_underpass",
+      "name": "Dwarka underpass (Sec 19/22)",
+      "lat": 28.585,
+      "lon": 77.045,
+      "limit": {
+        "rain1h_mm": 2.2,
+        "rain3h_mm": 4.4
+      },
+      "limit_is_own": false,
+      "evidence": "limited evidence (1 recorded floods here; pooled threshold used)",
+      "note": "Prototype. Estimated risk, not an official warning.",
+      "tier": "red",
+      "ratio": 2.73,
+      "forecast": {
+        "max_1h_mm": 5.0,
+        "max_3h_mm": 12.0,
+        "window_start": "2026-10-09T14:00:00+05:30",
+        "window_end": "2026-10-09T18:00:00+05:30"
+      },
+      "history": {
+        "recorded_floods": 1,
+        "floods_with_at_least_this_rain_3h": 0
+      },
+      "why": "Forecast rain up to 12.0 mm in 3 h, heaviest hour 5.0 mm is at or above this spot's limit (about 4.4 mm in 3 h). 0 of 1 recorded floods here had at least this much rain in 3 h. Estimated risk window is based on when forecast rain reaches the limit. Evidence: limited evidence (1 recorded floods here; pooled threshold used)."
+    },
+    {
+      "id": "south_avenue",
+      "name": "South Avenue road",
+      "lat": 28.601,
+      "lon": 77.2,
+      "limit": {
+        "rain1h_mm": 2.2,
+        "rain3h_mm": 4.4
+      },
+      "limit_is_own": false,
+      "evidence": "limited evidence (1 recorded floods here; pooled threshold used)",
+      "note": "Prototype. Estimated risk, not an official warning.",
+      "tier": "red",
+      "ratio": 2.73,
+      "forecast": {
+        "max_1h_mm": 5.0,
+        "max_3h_mm": 12.0,
+        "window_start": "2026-10-09T14:00:00+05:30",
+        "window_end": "2026-10-09T18:00:00+05:30"
+      },
+      "history": {
+        "recorded_floods": 1,
+        "floods_with_at_least_this_rain_3h": 0
+      },
+      "why": "Forecast rain up to 12.0 mm in 3 h, heaviest hour 5.0 mm is at or above this spot's limit (about 4.4 mm in 3 h). 0 of 1 recorded floods here had at least this much rain in 3 h. Estimated risk window is based on when forecast rain reaches the limit. Evidence: limited evidence (1 recorded floods here; pooled threshold used)."
+    },
+    {
+      "id": "dhaula_kuan",
+      "name": "Dhaula Kuan underpass",
+      "lat": 28.592,
+      "lon": 77.162,
+      "limit": {
+        "rain1h_mm": 2.2,
+        "rain3h_mm": 4.4
+      },
+      "limit_is_own": false,
+      "evidence": "limited evidence (0 recorded floods here; pooled threshold used)",
+      "note": "Prototype. Estimated risk, not an official warning.",
+      "tier": "red",
+      "ratio": 2.73,
+      "forecast": {
+        "max_1h_mm": 5.0,
+        "max_3h_mm": 12.0,
+        "window_start": "2026-10-09T14:00:00+05:30",
+        "window_end": "2026-10-09T18:00:00+05:30"
+      },
+      "history": null,
+      "why": "Forecast rain up to 12.0 mm in 3 h, heaviest hour 5.0 mm is at or above this spot's limit (about 4.4 mm in 3 h). Estimated risk window is based on when forecast rain reaches the limit. Evidence: limited evidence (0 recorded floods here; pooled threshold used)."
+    },
+    {
+      "id": "moolchand",
+      "name": "Moolchand underpass",
+      "lat": 28.569,
+      "lon": 77.234,
+      "limit": {
+        "rain1h_mm": 2.2,
+        "rain3h_mm": 4.4
+      },
+      "limit_is_own": false,
+      "evidence": "limited evidence (0 recorded floods here; pooled threshold used)",
+      "note": "Prototype. Estimated risk, not an official warning.",
+      "tier": "red",
+      "ratio": 2.73,
+      "forecast": {
+        "max_1h_mm": 5.0,
+        "max_3h_mm": 12.0,
+        "window_start": "2026-10-09T14:00:00+05:30",
+        "window_end": "2026-10-09T18:00:00+05:30"
+      },
+      "history": null,
+      "why": "Forecast rain up to 12.0 mm in 3 h, heaviest hour 5.0 mm is at or above this spot's limit (about 4.4 mm in 3 h). Estimated risk window is based on when forecast rain reaches the limit. Evidence: limited evidence (0 recorded floods here; pooled threshold used)."
+    }
+  ]
+}
